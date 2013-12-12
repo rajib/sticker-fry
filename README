@@ -1,6 +1,33 @@
 stickerFry
 ==========
 
+Converts ~01~ ~02~ ~03~ ~04~ to stickers 
+Put your custom stickers there on stickers folder and have fun.
+
 $(document).ready(function() {
-	stickerFry('stickerHolder');
+	stickerFry(dom);
 });
+
+Example:
+
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>index</title>
+		<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="jquery.sticker-fry.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" charset="utf-8">
+			$(document).ready(function() {
+				stickerFry('stickerHolder');
+			});
+		</script>
+	</head>
+	<body>
+		<h2>Stickers goes here</h2>
+		<p>Converts ~01~ ~02~ ~03~ ~04~ to stickers </p>
+		<p>Put your custom stickers there on stickers folder and have fun.<p>
+		<div id="stickerHolder">
+			~01~ ~02~ ~03~ ~04~
+		</div>
+	</body>
+</html>
