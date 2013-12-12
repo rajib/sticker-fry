@@ -1,0 +1,6 @@
+stickerFry
+==========
+
+$(document).ready(function() {
+	stickerFry('stickerHolder');
+});
