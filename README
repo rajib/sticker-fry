@@ -5,7 +5,7 @@ Converts ~01~ ~02~ ~03~ ~04~ to stickers
 Put your custom stickers there on stickers folder and have fun.
 
 $(document).ready(function() {
-	stickerFry(dom);
+    stickerFry(dom);
 });
 
 Example:
